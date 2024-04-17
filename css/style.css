@@ -4,7 +4,8 @@
 }
 
 #container {
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #galeria{
@@ -13,8 +14,15 @@
     gap: 10px;
 }
 
-#galeria img {
-    flex: 1;
-    height: 250px;
+#galeria a {
+    flex: auto;
+    height: 300px;
+}
+
+#galeria a img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
     border-radius: 4px;
 }
