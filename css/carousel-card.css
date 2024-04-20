@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.filmes-img {
+    height: 420px;
+    width: 310px;
+}
+
+
+.f-carousel {
+        --f-carousel-spacing: 8px;
+        --f-carousel-slide-width: calc((100% - 16px) / 3);
+}
+      
